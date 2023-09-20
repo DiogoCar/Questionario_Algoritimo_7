@@ -1,0 +1,49 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package exercicio_fix;
+
+import javax.swing.JOptionPane;
+import java.lang.Math;
+/**
+ *
+ * @author Discente
+ */
+public class Exercicio_fix {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+    
+      int a1,a2,a3,at;
+        
+        String sa1,sa2,sa3;
+   
+        sa1=JOptionPane.showInputDialog(null, "Digite o valor do Angulo 1: ");
+        sa2=JOptionPane.showInputDialog(null, "Digite o valor do Angulo 2: ");
+        sa3=JOptionPane.showInputDialog(null, "Digite o valor do Angulo 3: ");
+        
+        
+      a1= Integer.parseInt(sa1);
+      a2= Integer.parseInt(sa2);
+      a3= Integer.parseInt(sa3);
+      
+      at = a1 + a2 + a3;
+      
+ if (at == 90)
+JOptionPane.showMessageDialog(null,"É um Triangulo Retângulo!"); 
+
+else
+ if (at >= 90)
+ JOptionPane.showMessageDialog(null,"É um Triangulo Obtusângulo!");
+
+else
+ JOptionPane.showMessageDialog(null,"É um Triangulo Acutângulo!");
+
+   
+    }
+}
