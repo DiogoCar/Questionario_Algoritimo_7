@@ -1,0 +1,55 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package exercicio_fix;
+
+import javax.swing.JOptionPane;
+import java.lang.Math;
+/**
+ *
+ * @author Discente
+ */
+public class Exercicio_fix {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+    
+      int n1,n2,n3;
+        
+        String sn1,sn2,sn3;
+   
+        sn1=JOptionPane.showInputDialog(null, "Digite o valor de N1: ");
+        sn2=JOptionPane.showInputDialog(null, "Digite o valor de N2: ");
+        sn3=JOptionPane.showInputDialog(null, "Digite o valor de N3: ");
+        
+      n1= Integer.parseInt(sn1);
+      n2= Integer.parseInt(sn2);
+      n3= Integer.parseInt(sn3);
+      
+      
+      
+ if (n1 > n2 && n1 > n3)
+  {
+   JOptionPane.showMessageDialog(null,"Maior valor: " + n1);
+  }
+
+   if (n2 > n1 && n2 > n3)
+  {
+   JOptionPane.showMessageDialog(null,"Maior valor: " + n2);
+  }
+
+    if (n3 > n2 && n3 > n1)
+  {
+   JOptionPane.showMessageDialog(null,"Maior valor: " + n3);
+  }
+
+   
+    }
+}
+
+    
